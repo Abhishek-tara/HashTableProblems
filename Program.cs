@@ -6,8 +6,8 @@
         {
             Console.WriteLine("Welcome tho the Hash Table Problems");
 
-            string sentence = "To be or not to be";
-            string[] words = sentence.Split(' ');
+            string paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
+            string[] words = paragraph.Split(' ');
 
             HashTable<string, int> frequency = new HashTable<string, int>(words.Length);
 
